@@ -35,3 +35,6 @@ docker run -p 8080:8080 -p 50001:50000 -v content-folder:/var/jenkins_home nwb-j
 
 ## Documentations
 https://stackoverflow.com/questions/41266889/jenkins-2-override-plugins-txt
+
+
+https://technologyconversations.com/2017/06/16/automating-jenkins-docker-setup/
