@@ -26,11 +26,11 @@ docker-compose up
 Run Jenkins with docker
 #### Build image
 ~~~bash
-docker build -t nwb-jenkins:1.0.0 .
+docker build -t my-jenkins:1.0.0 .
 ~~~
 #### Run docker container
 ~~~bash
-docker run -p 8080:8080 -p 50000:50000 -v content-folder:/var/jenkins_home nwb-jenkins:1.0.0
+docker run -p 8080:8080 -p 50000:50000 -v content-folder:/var/jenkins_home my-jenkins:1.0.0
 ~~~
 
 ## Documentations
